@@ -51,5 +51,4 @@ Client → HTTPS (443) → ALB → HTTP (80) → Target Group → EC2 Apache
 
 The certificate was self-signed and imported into ACM. It was not publicly issued by ACM and is not automatically trusted by browsers. HTTPS testing used curl -k to skip certificate validation.
 
-See docs/Project-16-Documentation.md for implementation details and interview questions.
 
